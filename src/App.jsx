@@ -1,10 +1,14 @@
 import "./App.css";
+import { Button } from "./components/Button.jsx";
+
 
 function App() {
   return (
     <div className="App">
       <div className="button-components-section">
-        {/* Render ตัว Button 2 แบบ */}
+        <Button color="#074EE8"/>
+        <br></br>
+        <Button color="#07A4E8"/>
       </div>
       <hr />
       <div className="alert-components-section">
